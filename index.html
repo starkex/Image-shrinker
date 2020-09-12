@@ -6,10 +6,47 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
     <title>Image Shrink</title>
+    <style>
+
+      input[type="text"]{
+        color:black;
+        background: yellow;
+        padding: 15px;
+      
+      }
+      input[type="password"]{
+        color:white;
+        padding: 10px;
+      }
+        .geek{
+          width:40%;
+          margin-left:20px;
+          margin-top: 15px;
+            }
+        .shushi{
+          position:absolute;
+          top:10%;
+          left:40%;
+          width:550px;
+          height:400px;
+          background:purple;
+          border:yellow;
+        }
+        .bot{
+          color: white;
+        }
+      
+      </style>
   </head>
   <body>
-    <h1>Hello World!</h1>
 
+    <div class="shushi">
+      <label class="bot">Username</label>
+      <input type="text" name="l1" value="" placeholder="type here" class="geek">
+      <br>
+      <label class="bot">Password </label>
+      <input type="password" name="" value="" placeholder="type here" class="geek">
+    </div>
 
     <!-- You can also require other files to run in this process -->
     <script src="./renderer.js"></script>
