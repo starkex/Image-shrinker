@@ -7,6 +7,7 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 1000,
     height: 800,
+    frame:false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
@@ -14,7 +15,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
-  browserWindow.setMenu(null);
+ 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 }

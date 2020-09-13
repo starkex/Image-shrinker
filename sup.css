@@ -1,0 +1,26 @@
+input[type="text"]{
+    color:black;
+    background: yellow;
+    padding: 15px;
+  }
+  input[type="password"]{
+    color:white;
+    padding: 10px;
+  }
+    .geek{
+      width:40%;
+      margin-left:20px;
+      margin-top: 15px;
+        }
+    .shushi{
+      position:absolute;
+      top:10%;
+      left:40%;
+      width:550px;
+      height:400px;
+      background:purple;
+      border:yellow;
+    }
+    .bot{
+      color: white;
+    }
